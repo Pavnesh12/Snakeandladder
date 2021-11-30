@@ -8,7 +8,11 @@ namespace snakeandladder
         {
             Console.WriteLine(" Snake and ladder game");
           Snakegame game = new Snakegame();
-            game.diceroll();
+            game.dicerollp1();
+            game.dicerollp2();
+            game.winner();
+
+
         }
     }
 }
